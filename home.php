@@ -139,7 +139,6 @@
                                                 Min Nb Answers<input type="text" class="form-control" style=" background-color: #EEE9B3;" id="nbminrep" name="nbminrep" value=<?php echo $nbminrep; ?> placeholder="0">
                                                 <br><button type="submit" class="btn btn-primary" name="startEvaluation">Start Evaluation</button><br><br>
 
-
                                                     <a href="templates/Answers.php" target="_blank" class="btn btn-primary " role="button">View Answers</a><br><br>
 
                                                     <a href="templates/TreeView.php" target="_blank" class="btn btn-primary " role="button">Tree View
@@ -168,7 +167,6 @@
                                                         OI: <input type="text" class="form-control" style=" background-color: #EEE9B3;" id="OI" name="OI" value=<?php echo $OI; ?> placeholder="1">
                                                     </div>
 
-
                                                 </div>
 
                                             </div>
@@ -186,7 +184,7 @@
                                                         KB <input type="text" class="form-control" style=" background-color: #EEE9B3;" id="KB" name="KB" value=<?php echo $KB; ?> placeholder="0">
                                                                         
                                                     </div>                                     
-
+                                                
                                             </div>
                                 
                                         </div>
@@ -202,7 +200,6 @@
 
             </div>
             <!--------------------------------------------------------------------------------------------------------------------------->
-
         
             <Framework class="row">
                 <h2></h2>
@@ -264,29 +261,20 @@
 
 </body>
 
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-
 <script src="js/jstree.min.js"></script>
-
 
 <script type="text/javascript">
     var openside = false;
     var NodeType = '';
     var NodeID = '';
     var Treeview=  <?php echo  $Treeview; ?>
-    /***********************************************************************************************************************/
- 
-
-
-
-
-    /***********************************************************************************************************************/
+    
 </script>
 <script src="js/home.js"></script>
 
