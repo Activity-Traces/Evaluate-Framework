@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(224, 231, 233);
+}
+
+#topmenue {
+    background-color: #154360;
+}
+
+li {
+    background-color: #154360;
+}
+
+li:hover {
+    background-color: rgb(53, 50, 44);
+    color: inherit;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #154360;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    background-color: #154360;
+}
+
+.openbtn:hover {
+    background-color: #154360;
+}
+
+.panel-body {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#main {
+    padding: 16px;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}

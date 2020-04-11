@@ -1,0 +1,17 @@
+{
+    "name": "tarek/evaluate",
+    "description": "evaluate frameworks",
+    "authors": [{
+        "name": "Tarek",
+        "email": "tarek.djouad@gmail.com"
+    }],
+
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "classes/"
+        }
+
+    },
+    "require": {}
+}
